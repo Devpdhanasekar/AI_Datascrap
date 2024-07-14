@@ -1,0 +1,8 @@
+Flask==2.2.3
+flask-cors==3.0.10
+requests==2.31.0
+beautifulsoup4==4.12.2
+openai==0.27.8
+pymongo==4.5.0
+tavily==0.0.3
+bson==0.5.10
