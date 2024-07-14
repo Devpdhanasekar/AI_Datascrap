@@ -22,11 +22,11 @@ from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 
 
 
-@app.route('/getInvestors', methods=['GET'])
-def getInvestors():
-    query = "select * from investment_funds"
-    finalData = dbCommunication(query)
-    return {"data": finalData}
+# @app.route('/getInvestors', methods=['GET'])
+# def getInvestors():
+#     query = "select * from investment_funds"
+#     finalData = dbCommunication(query)
+#     return {"data": finalData}
 
 
 def getFounderLinkedIn(query, location="United States"):

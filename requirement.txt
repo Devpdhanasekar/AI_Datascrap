@@ -6,3 +6,4 @@ openai==0.27.8
 pymongo==4.5.0
 tavily==0.0.3
 bson==0.5.10
+geopy==2.3.0
